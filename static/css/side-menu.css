@@ -1,3 +1,8 @@
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: "Salesforce Sans";
+}
+
 body {
     color: #191919;
 }
@@ -44,14 +49,16 @@ The content `<div>` is where all your content goes.
     max-width: 800px;
     margin-bottom: 50px;
     line-height: 1.6em;
+    font-family: "Salesforce Sans"
 }
 
 .header {
      margin: 0;
-     color: #333;
+     color: #7c868d;
      text-align: center;
      padding: 2.5em 2em 0;
      border-bottom: 1px solid #eee;
+     font-family: "Salesforce Sans";
  }
     .header h1 {
         margin: 0.2em 0;
@@ -86,7 +93,7 @@ appears on the left side of the page.
     left: 0;
     bottom: 0;
     z-index: 1000; /* so the menu or its navicon stays above all content */
-    background: #191818;
+    background: #00a1e0;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -94,7 +101,8 @@ appears on the left side of the page.
     All anchors inside the menu should be styled like this.
     */
     #menu a {
-        color: #999;
+        color: #FFF;
+        font-family: "Salesforce Sans";
         border: none;
         padding: 0.6em 0 0.6em 0.6em;
     }
@@ -113,14 +121,14 @@ appears on the left side of the page.
     */
     #menu .pure-menu ul,
     #menu .pure-menu .menu-item-divided {
-        border-top: 1px solid #333;
+        border-top: 0px solid #7c868d;
     }
         /*
         Change color of the anchor links on hover/focus.
         */
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
-            background: #333;
+            background: #7c868d;
         }
 
     /*

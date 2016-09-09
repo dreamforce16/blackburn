@@ -1,9 +1,14 @@
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: "Salesforce Sans";
+}
+
 .header {
-  font-family: "Raleway", Helvetica, Arial, sans-serif
+  font-family: "Salesforce Sans"
 }
 
 a {
-  color: #3b8bba;
+  color: #00a1e0;
   text-decoration: none;
 }
 a:hover,
@@ -11,7 +16,7 @@ a:focus {
   text-decoration: underline;
 }
 a:visited {
-  color: #265778;
+  color: #001871;
 }
 
 .small-print {
@@ -48,7 +53,7 @@ article > footer {
 }
 
 #menu .brand {
-  font-family: Raleway;
+  font-family: "Salesforce Sans";
   font-weight: bold;
   font-size: 1em;
   letter-spacing: 0.1em;
